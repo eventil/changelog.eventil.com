@@ -1,0 +1,36 @@
+$grey: #DFDFDF;
+
+.panel {
+  border: 1px solid $grey; 
+}
+
+.headline, .main {
+  padding: 1.5rem;
+}
+
+.headline {
+  border-bottom: 1px solid $grey; 
+}
+
+.post {
+  margin-bottom: 3rem;
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .labels {
+    margin-right: .5rem;
+  }
+}
+
+.tag {
+  &.is-improvement {
+    background-color:#EE82EE;	 
+    color: #FFF;
+  }
+  &.is-new {
+    background-color: #209cee;
+    color: #FFF;
+  }
+}
